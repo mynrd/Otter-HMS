@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Otter.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Otter.Api.Controllers.AccountController">
+            <summary>
+            Account Controller
+            </summary>
+        </member>
+        <member name="M:Otter.Api.Controllers.AccountController.#ctor(Otter.Services.Account.IUserAccessService)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:Otter.Api.Controllers.AccountController.Login(Otter.Core.Account.LoginModel)">
+            <summary>
+            Login
+            </summary>
+            <param name="login">Login Model</param>
+            <returns></returns>
+        </member>
+        <member name="T:Otter.Api.Controllers.BaseController">
+            <summary>
+            Base Controller
+            </summary>
+        </member>
+        <member name="T:Otter.Api.Controllers.CompanyController">
+            <summary>
+            Company Controller
+            </summary>
+        </member>
+        <member name="M:Otter.Api.Controllers.CompanyController.#ctor(Otter.Services.Company.ICompanyService)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="companyService"></param>
+        </member>
+        <member name="M:Otter.Api.Controllers.CompanyController.GetList">
+            <summary>
+            Get List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Otter.Api.ServiceConfiguration.SwaggerConfig">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Otter.Api.ServiceConfiguration.SwaggerConfig.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>
